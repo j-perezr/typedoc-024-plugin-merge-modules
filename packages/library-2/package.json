@@ -1,5 +1,10 @@
 {
   "name": "library-2",
   "version": "0.0.1",
-  "type": "module"
+  "type": "module",
+  "typedoc": {
+    "entryPoint": "./src/index.ts",
+    "displayName": "Library 2",
+    "tsconfig": "./tsconfig.lib.json"
+  }
 }
