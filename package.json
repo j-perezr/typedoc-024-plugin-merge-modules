@@ -1,0 +1,26 @@
+{
+  "name": "typedoc-024-plugin-merge-modules",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build:docs": "typedoc --options typedoc.config.json",
+    "serve:docs": "http-server ./docs/sdk -c-0 --o"
+  },
+  "private": true,
+  "devDependencies": {
+    "@nrwl/eslint-plugin-nx": "15.9.2",
+    "@nrwl/js": "15.9.2",
+    "@nrwl/linter": "15.9.2",
+    "@nrwl/workspace": "15.9.2",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "eslint": "~8.15.0",
+    "eslint-config-prettier": "8.1.0",
+    "http-server": "^14.1.1",
+    "nx": "15.9.2",
+    "prettier": "^2.6.2",
+    "typedoc": "^0.24.6",
+    "typedoc-plugin-merge-modules": "^4.1.0",
+    "typescript": "~4.9.5"
+  }
+}

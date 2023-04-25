@@ -1,0 +1,21 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPointStrategy": "packages",
+  "out": "docs/sdk",
+  "name": "Typedoc 0.24 plugin merge modules",
+  "cleanOutputDir": true,
+  "visibilityFilters": {},
+  "disableSources": true,
+  "excludePrivate": true,
+  "emit": "docs",
+  "logLevel": "Warn",
+  "plugin": [
+    "typedoc-plugin-merge-modules"
+  ],
+  "mergeModulesMergeMode": "module",
+  "entryPoints": [
+    "packages/library-1",
+    "packages/library-1-models",
+    "packages/library-2"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "library-2",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/library-2/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/library-2",
+        "main": "packages/library-2/src/index.ts",
+        "tsConfig": "packages/library-2/tsconfig.lib.json",
+        "assets": []
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/library-2/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}
